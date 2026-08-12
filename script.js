@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href*="singingfiles.com"]').forEach(a=>a.addEventListener('click',()=>{try{localStorage.setItem('arusa_last_offer_click',new Date().toISOString())}catch(e){}}));
